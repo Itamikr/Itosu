@@ -1,0 +1,564 @@
+ /* Made by Itami#3975
+IGN : quicksex
+twitter : @reikatugames
+tiktok : @reikatu , @quicksax
+ */
+:root {
+  --main-color: #00fcff;
+  --secondary-color: #ff0300;
+}
+#menuClassNameTag,
+#menuClassName,
+#menuClassSubtext {
+    display: none !important;
+}
+
+#customizeButton {
+    border-radius: 40px
+}
+#policeButton{
+  border-radius: 32px;
+  
+}
+#menuAccountUsername, #mailIcon, #mailCount, #mLevelCont, .rankClck, #levelContainer, .progressBar, #menuKRCount,#menuJNKCount, .verticalSeparator {
+   display: none;
+   visibility: hidden;
+}
+#signedInHeaderBar{
+  background-color: transparent;
+}
+
+#menuMiniProfilePic {
+  transform : scale(5);
+}
+#menuUsernameContainer {
+  position: fixed;
+  left: 50%;  
+  top : 90%
+}
+#mainLogo, #seasonLabel {  
+   display: none
+}
+#menuItemContainer {
+  background-color: transparent;
+}
+.menuItem .menuItemTitle {
+    display: none
+}
+#subLogoButtons>.button:hover {
+  color: var(--secondary-color)!important;
+  transform:scale(2);
+}
+.buttonG{
+  border-color: var(--main-color)!Important;
+  background-color: transparent!important
+}
+.buttonG:hover{
+   border-color: var(--secondary-color)!important;
+   transform: scale(1.1)!important
+}
+.buttonB{
+  border-color: var(--main-color)!important;
+  background-color: transparent!important
+}
+.buttonB:hover {
+  border-color: var(--secondary-color)!important;
+  transform: scale(1.2)
+    
+}
+
+#faceItIconM{
+  display: none;
+}
+#subLogoButtons{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: 0px solid!Important;
+  position: fixed;
+  position: absolute;  
+  left: 9%;
+  bottom: 3%;
+  
+}
+#subLogoButtons>.button{
+  border: 0px solid!Important;  
+  background-color: transparent;
+  transform: scale(2);
+  width: 42%;
+  height: 153px;
+  left: unset;
+  
+}
+.material-icons-outlined.menBtnIcn {
+  font-size: 39px !important;
+  color: var(--main-color)!important;
+  margin-left: 43px;
+  transform: scale(2);
+  background-color: transparent;
+    
+}
+.menuItem:hover .menBtnIcn{
+  color: var(--secondary-color)!important;
+  transform: scale(2);
+}
+#menuBtnHost,
+#inviteButton,
+#menuBtnBrowser,
+#menuBtnJoin,
+#menuBtnRanked {
+    font-size: 0 !important;
+    color: var(--main-color);
+}
+#menuBtnHost:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\e88a";
+}
+
+#menuBtnBrowser:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\e875";
+}
+
+#menuBtnRanked:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\f20c";
+}
+
+#inviteButton:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\e173";
+}
+
+#menuBtnJoin:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\e9bd";
+}
+
+#instructions{  
+   visibility: hidden;
+  animation: none;
+  left: 44.28%;
+  color: var(--main-color)!Important;
+   opacity: 0.3
+}
+
+#instructions:after{
+  visibility: visible;
+  content: 'Itosu';
+  left: 25%;
+  font-family: gamefont;
+  font-size: 90px
+}
+@font-face {
+    font-family: gamefont;
+    src: url(https://dl.dropboxusercontent.com/s/p8l443v4hlry84t/orbitron-bold.otf?dl=0)
+}
+#uiBase.onMenu #chatHolder {
+      left: unset;
+      right: 40px;
+      bottom: 2%;
+  }
+#chatInputHolder{
+  background-color: transparent;
+  border-color: transparent;
+  
+  
+}
+#chatHolder{
+  letter-spacing: 1.2px;
+   background-color: transparent;
+  color: transparent;
+  padding-right: 10px
+}
+.chatItem{
+  border: 5px solid #00fcff!Important;
+  border-radius: 35px;
+  padding-left: 6px;
+  padding-right: 70px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: transparent!important
+}
+
+.chatMsg {
+  color: red!Important
+}
+#chatList{
+  background-color: transparent;
+}
+#chatInput {
+  background-color: var(--main-color)!important;
+  width: 320px;
+  border-radius: 20px 
+}
+#voiceDisplay, #chatSwitch, #chatList::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+}
+#chatInput::placeholder{
+    color: transparent;
+}
+#chatHolder:focus-within #chatInputHolder::before{
+    opacity: 0;
+}
+#chatInputHolder::before{
+    content: "Itami#3975";
+    position: absolute;
+    color: red;
+    bottom: 18px;
+    left: 27px;
+    opacity: 1;
+    pointer-events: none;
+}
+  .headShotChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #00FFFF) drop-shadow(0px 0px 1px #00FFFF) drop-shadow(2px 0px 1px #00FFFF);
+}
+
+.thrownChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #00FFFF) drop-shadow(0px 0px 1px #00FFFF) drop-shadow(2px 0px 1px #00FFFF);
+}
+
+.fistChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #00FFFF) drop-shadow(0px 0px 1px #00FFFF) drop-shadow(2px 0px 1px #00FFFF);
+}
+
+.weaponChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #00FFFF) drop-shadow(0px 0px 1px #00FFFF) drop-shadow(2px 0px 1px #00FFFF);
+}
+
+.meleeChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px #00FFFF) drop-shadow(0px 0px 1px #00FFFF) drop-shadow(2px 0px 1px #00FFFF);
+}
+
+#uiBase.onMenu .gameUIH {
+    display:block !important;
+}
+#uiBase.onMenu #timerIcon,#uiBase.onMenu #curGameInfo,#uiBase.onMenu #roundsDisplay,#uiBase.onMenu .debugInfo,#uiBase.onMenu #topRight,#uiBase.onMenu #bottomLeftHolder,#uiBase.onMenu #botRightHider,#uiBase.onMenu #speedRunHolder,#uiBase.onMenu #hiddenMsg,#uiBase.onMenu #networkLag,#uiBase.onMenu #voteToKick,#uiBase.onMenu #teamScores,#uiBase.onMenu #propInstruct,#uiBase.onMenu #killCardHolder,#uiBase.onMenu #gameMessage,#uiBase.onMenu #interactMsg {
+    display:none !important;
+}
+#uiBase.onMenu #timerDisplay {
+    position:fixed;
+    left:50%;
+    transform:translateX(-50%) scale(1.2);
+    top:53%;
+    background-color:transparent;
+    padding:0;
+    margin:0;
+    color: rgb(255 0 0)!Important
+}
+  
+.slider{
+    width:36px;
+    height:36px;
+    border-radius:100px;
+    background:transparent !important;
+    border:4px #9d10e8 solid;
+    top:unset;
+}
+input:checked+.slider:before{
+    background:#9d10e8;
+    top:4px;
+    left:4px;
+    transform:unset;
+    height:28px;
+    border-radius:100px;
+    width:28px;
+}
+.slider:before{
+    background-color:#353535;
+    top:4px;
+    left:4px;
+    transform:unset;
+    height:28px;
+    border-radius:100px;
+    width:28px;
+}
+.slider:before {
+    position: absolute;
+    content: none;
+    line-height: 36px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: transparent;
+}
+  
+  /* Health */
+
+#healthValueHolder {
+    background-color: transparent;
+    width: 100px;
+    height: 65px;
+    border-radius: 0;
+    position: fixed;
+    left: 35%;
+    bottom: 13%;
+    padding: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: center;
+}
+
+#healthValue:after {
+    content: '健康' !important;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    font-size: 32px !important;
+    color: var(--secondary-color) !important;
+}
+
+#healthValue {
+    color: #fff !important;
+    font-family: gamefont;
+    font-size: 65px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    will-change: unset;
+}
+
+#maxHP {
+    display: none;
+}
+
+#challIcon {
+    display: none !important;
+}
+
+#healthBar {
+    display: none;
+}
+
+/* Ammo */
+
+#ammoDisplay {
+    width: 50px;
+    height: 5px;
+    top: calc(50% + 35px);
+    left: calc(50% - 25px);
+    background-color: transparent;
+    letter-spacing: 2px;
+    border-radius: 0;
+    position: fixed;
+    right: 31%;
+    bottom: 25%;
+    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    transform: none;
+}
+
+#ammoVal {
+    color: #fff !important;
+    font-family: gamefont;
+    font-size: 65px;
+    background-color: transparent;
+    width: 100px;
+    height: 65px;
+    border-radius: 0;
+    position: fixed;
+    right: 35%;
+    bottom: 13%;
+    padding: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: center;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#ammoVal:after {
+    content: '弾' !important;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    font-size: 32px !important;
+    color: var(--secondary-color) !important;
+}
+
+#ammoMax {
+    display: none;
+}
+
+#ammoIcon {
+    display: none;
+}
+
+#reloadMsg {
+    bottom: 100px;
+    background: transparent !important;
+}
+
+/* timer */
+
+#timerVal {
+    color: #fff;
+    padding-left: 3px;
+    font-size: 64px;
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+#timerIcon {
+    display: none;
+}
+
+#timerDisplay {
+    text-align: left;
+    vertical-align: top;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,.0);
+}
+ .weapKey {
+    display:none;
+}
+
+.weapIcon {
+    transition:transform 0.3s;
+}
+
+#weapDisplay {
+    display:flex !important;
+    flex-direction:row;
+    right:50%;
+    bottom:3%;
+    transform:translateX(50%);
+    filter: brightness(2340) sepia(0.2) saturate(3992%) opacity(100%) hue-rotate(90deg);
+}
+
+#weapItem_0 .weapIcon[style*="opacity: 1;"] {
+    transform:translateX(150px) translateY(-100px);
+    transition:transform 0.3s;
+}
+
+#weapItem_1 .weapIcon[style*="opacity: 1;"] {
+    transform:translateY(-100px);
+    transition:transform 0.3s;
+}
+
+#weapItem_2 .weapIcon[style*="opacity: 1;"] {
+    transform:translateX(-150px) translateY(-100px);
+    transition:transform 0.3s;
+}
+
+#uiBase.onDeathScrn #weapDisplay {
+    display:none !important;
+}
+  .classCard {
+    background-color: transparent;
+    color: var(--accent-color) !important;
+    text-shadow: none;
+}
+
+.classWeap {
+    text-shadow: none !important;
+    transition-duration: 0.3s;
+}
+
+.classLvl {
+    color: var(--accent-color) !important;
+    transition-duration: 0.3s;
+}
+
+.classHP {
+    color: var(--accent-color) !important;
+    transition-duration: 0.3s;
+}
+
+.classHP span {
+    color: var(--accent-color) !important;
+}
+
+.classCard:hover .classHP {
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.classCard:hover .classLvl {
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.classCard:hover .classWeap {
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.classImgC {
+    border-radius: 10px;
+}
+
+.classXPBar {
+    background-color: var(--menu-bg-color-secondary);
+    border-radius: 10px;
+}
+
+.clsXPBarC {
+    margin: 0;
+    background-color: var(--accent-color);
+    height: 26px;
+    border-radius: 10px;
+}
+
+.classCard:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.classCard img {
+    opacity: 0.7;
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+}
+#hudClassIcon{
+    background-color:rgba(0,0,0,0);
+    background-image:url(https://media.discordapp.net/attachments/690655318480257065/962135666039337000/aG8xXzQwMC5wbmc.png);
+    background-size:cover;
+    width:425px;
+    height:600px;
+    transform:scale(0.9) translate(-75%, 25%);
+}
+#hudClassImg{
+    display:none;
+}
+#bottomLeftHolder{
+    position:absolute;
+    bottom:1%;
+    left: 96%;
+}
+  
+  
+
+
+/* ads hider */
+#braveWarning {display : none!important}
+div#streamContainer { display: none; }
+div#twitchDropsAd.youNewDiv { display: none !important; }
+div#doubleXPAd.youNewDiv { display: none !important; }
+div#dropsPop { display: none !important; }
+div#newUserGuide.youNewDiv { display: none; }
+div#krDiscountAd.youNewDiv { display: none; }
+div#updateAd.youNewDiv { display: none !important; }
+div#rankedBlog.youNewDiv { display: none; }
+div#headerRight.headerBarRight.headerBar { display: none; }
+div#newsHolder { display: none; }
+div#mapInfo { display: none; }
+div#mapInfoHolder { display: none; }
+div#aContainer, div#aMerger { display: none !important; }
+div#rankedSoonTm { display: none; }
+#loadInfoLHolder, #loadGamNm, #loadInfoRHolder { display: none !important; }
+#exitButton { display: none !important; }
+div#rankedPop { display: none !important;}
+div#bundlePop { display: none !important; }
+div#claimPop { display: none !important; }
+div#bubbleContainer { display: none !important}
